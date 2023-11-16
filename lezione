@@ -1,0 +1,38 @@
+variabili e quali usare :
+int = integers(2 o 4 byte, -2,147,483,648 to 2,147,483,647);
+char = caratteri (1 byte, 0 a 255);
+unsigned int = integer che non puo essere negativo (65,535 or 0 to 4,294,967,295, 2 o 4 byte);
+long = in pratica il doppio di int;
+short = vabbe';
+void = puo starci qualunque cosa;
+const char\int\void... = la variabile non puo essere cambiata dopo averla dichiarata.
+
+come compilare un programma :
+
+gcc -Wall -Wextra -Werror (nome del file);
+./a.out (da solo, oppure seguito da un argomento se usato ac av);
+ex:
+gcc -Wall -Wextra -Werror ft_capitalize_first_word.c
+./a.out "tua mamma troia"
+output: Tua Mamma Troia.
+
+operatori :
+
+"==" 	Checks if the values of two operands are equal or not. If yes, then the condition becomes true. 	(A == B) is not true.
+"!=" 	Checks if the values of two operands are equal or not. If the values are not equal, then the condition becomes true. 	(A != B) is true.
+">" 	Checks if the value of left operand is greater than the value of right operand. If yes, then the condition becomes true. 	(A > B) is not true.
+"<" 	Checks if the value of left operand is less than the value of right operand. If yes, then the condition becomes true. 	(A < B) is true.
+">=" 	Checks if the value of left operand is greater than or equal to the value of right operand. If yes, then the condition becomes true. 	(A >= B) is not true.
+"<=" 	Checks if the value of left operand is less than or equal to the value of right operand. If yes, then the condition becomes true. 	(A <= B) is true.
+
+&&  serve a dire letteralmente la parola (e) cioe include.
+||  questo vuoldire oppure;
+!   da solo vuole vedere se l operazione e falsa.
+
++ 	Adds two operands. 	A + B = 30
+− 	Subtracts second operand from the first. 	A − B = -10
+* 	Multiplies both operands. 	A * B = 200
+/ 	Divides numerator by de-numerator. 	B / A = 2
+% 	Modulus Operator and remainder of after an integer division. 	B % A = 0
+++ 	Increment operator increases the integer value by one. 	A++ = 11
+-- 	Decrement operator decreases the integer value by one. 	A-- = 9
